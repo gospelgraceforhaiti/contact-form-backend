@@ -97,6 +97,10 @@ Create a form and link it up!
 
 > Note: You will need to replace `SITE_KEY` twice in the above sample with your Google ReCaptcha site key.  You will need to replace `WORKER_URL` once with your deployed CloudFlare worker url.
 
+# Contributing
+
+This repository is an example and as such does not accept contributions via pull requests.  If you've found a bug or would like to make a suggestion, please open an issue.
+
 # LICENSE
 
 This repository and its contents are license under a MIT license. For more details, see [LICENSE.md](LICENSE.md).
