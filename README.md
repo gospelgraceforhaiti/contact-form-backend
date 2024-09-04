@@ -4,6 +4,8 @@ A simple Cloudflare worker that uses MailGun's free tier API and ReCaptcha to pr
 
 # Deployment
 
+> Note: This guide assumes familiarity with [wrangler](https://developers.cloudflare.com/workers/wrangler/).  Read the docs if you've not deployed a CloudFlare worker before.
+
 1. Sign up for [Google's ReCaptcha](https://www.google.com/recaptcha/about/).
 2. Add a new site.  Copy the `Site Key` and `Site Secret` somewhere safe.  Make sure to add the url of your contact us form.
 3. Sign up for [MailGun](https://mailgun.com).  For less than 100 form submissions per day, the free tier should be sufficient.  For more submissions, you'll need to upgrade to a paid plan.
