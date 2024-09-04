@@ -17,9 +17,9 @@ compatibility_flags = ["nodejs_compat"]
 # Note: Use secrets to store sensitive data.
 # - https://developers.cloudflare.com/workers/configuration/secrets/
 [vars]
-MAILGUN_DOMAIN = "mg.ethantmcgee.com"
-MAILGUN_USER = "me@ethantmcgee.com"
-SMTP_TO = "me@ethantmcgee.com"
+MAILGUN_DOMAIN = ""
+MAILGUN_USER = ""
+SMTP_TO = ""
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#workers-ai
