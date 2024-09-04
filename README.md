@@ -16,7 +16,6 @@ A simple Cloudflare worker that uses MailGun's free tier API and ReCaptcha to pr
 8. Add a secret `npx wrangler secret put MAILGUN_KEY`.  The value will be your API sending key for mailgun.
 9. Add another secret `npx wrangler secret put RECAPTCHA_TOKEN`.  The value will be your ReCaptcha domain secret.
 10. Deploy the worker and copy the deployed url.
-11. Set the deployed url as a domain on your ReCaptcha site.
 
 # Usage
 
