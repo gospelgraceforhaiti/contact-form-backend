@@ -103,4 +103,4 @@ This repository is an example and as such does not accept contributions via pull
 
 # LICENSE
 
-This repository and its contents are license under a MIT license. For more details, see [LICENSE.md](LICENSE.md).
+This repository and its contents are license under a MIT license. For more details, see [LICENSE](LICENSE).
