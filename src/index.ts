@@ -40,8 +40,8 @@ export default {
 			const form = new FormData();
 			form.append('from', body.email);
 			form.append('to', SMTP_TO);
-			form.append('subject', `Contact Form Submission: ${body.first_name} ${body.first_name}`);
-			form.append('text', body.message);
+			form.append('subject', `Contact Form Submission: ${body.name}`);
+			form.append('text', `Phone: ${body.phone}, Message: ${body.message}`);
 
 			const resp = await fetch(
 				`https://api.mailgun.net/v3/${MAILGUN_DOMAIN}/messages`,
